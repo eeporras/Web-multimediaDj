@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #090011;
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    border: 1px solid #03D707;
+}
+
+                    /* //Estilo del menu */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.swiper-slide{
+    padding: 0 80px 50px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-prev::after{
+    font-size: 40px;
+}
+
+.swiper-button-next::after{
+    font-size: 40px;
+}
+
+.swiper-button-prev{
+    color: #1FFF26;
+}
+
+.swiper-button-next{
+    color: #1FFF26;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #feffff;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #03D707;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    font-family: 'Lumanosimo', cursive;
+    font-size: 25px;
+    color: #1FFF26;
+    text-transform: uppercase;
+    font-weight: 600;
+} 
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-family: 'Poppins', sans-serif;    
+    font-size: 20px;
+    padding: 28px;
+    color: #feffff;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #1FFF26;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono { 
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    /* //transparencia */
+    backdrop-filter: blur(10px); 
+    /* ////////////////////////// */
+    top: 100%;
+    z-index: 1;
+    background-color: #4E4B5076;
+    padding: 20px;
+    min-width: 400px;
+}
+
+.btn-3 {
+    display: inline-block;
+    background-color: #1FFF26;
+    color: #010000;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+.btn-3:hover {
+    background-color: #03D707 ;
+}
+
+table {
+    width: 100%;
+}
+
+th, td  {
+    color: #feffff;
+}
+
+/* ////Estilo de la seccion de Informacion de la pagina */
+
+.footer {
+    display: block;
+    padding: 30px 0;
+    
+}
+
+.link {
+    text-align: center;
+}
+
+.link h3 {
+    color: #feffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.link a {
+    color: #74788f;
+    font-size: 20x;
+    display: block;
+    margin-bottom: 10px;
+}
