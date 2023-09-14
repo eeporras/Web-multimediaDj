@@ -27,7 +27,7 @@ hr {
 .header{
     display: flex;
     align-items: center;
-    min-height: 70vh;
+    min-height: 20vh;
 }
 
 .swiper-slide{
@@ -153,6 +153,41 @@ table {
 
 th, td  {
     color: #feffff;
+}
+
+/* //Estilo de Información de contacto a la empresa */
+
+section {
+    background-color: #1FFF26;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin: 50px 50px;
+}
+
+h2 {
+    color: #feffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    color: #010000;
+    padding: 10px;
+
+}
+
+address {
+    color: #010000;
+    padding: 10px;
+}
+
+p #icono {
+    width: 25px;
+}
+
+address #icono {
+    width: 25px;
 }
 
 /* ////Estilo de la seccion de Informacion de la pagina */
